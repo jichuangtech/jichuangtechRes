@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{margin:0 auto;font-family:consolas;font-size:12px;color:#333;}
+img{border:0px;}
+a{text-decoration:none;color:#333;}
+a:hover{text-decoration:underline;color:#369;}
+    .red        			{font-weight:bold;color:#F00;}
+	.nav_title				{font-family:'微软雅黑';font-size:16px;color:#CC0000;letter-spacing:3px;line-height:40px;text-decoration:none;}
+	.nav_title_2			{font-family:'微软雅黑';font-size:15px;color:#333333;letter-spacing:1px;line-height:30px;text-decoration:none;}
+	.nav_title_3			{font-size:14px;line-height:30px;font-weight:bold;color:#006699;}
+	a.nav_title				{font-family:'微软雅黑';font-size:16px;color:#CC0000;letter-spacing:2px;line-height:40px;text-decoration:none;}
+	a.nav_title:hover		{font-family:'微软雅黑';font-size:16px;color:#CC0000;letter-spacing:2px;line-height:40px;text-decoration:underline;}
+	a.nav_pro				{color:#333;text-decoration:none;}
+	a.nav_pro:hover			{color:#C00;text-decoration:underline;}
+	a.nav_company			{font-size:12px;}
+	a.english_link			{font-family:arial;font-size:12px;color:#999999;}
+	a.english_link:hover	{color:#CC0000;text-decoration:underline;}
+	a.taobao_link			{font-family:arial;font-size:12px;color:#999999;}
+	a.taobao_link:hover		{color:#CC0000;text-decoration:underline;}	
+	.news_title_1			{font-family:'微软雅黑';font-weight:bold;font-size:25px;line-height:30px;color:#369;}
+	.news_title_2			{font-family:'微软雅黑';font-weight:bold;font-size:15px;line-height:42px;color:#369;}
+	div.left_menu_bg_1		{wdith:200px;height:40px;line-height:40px;font-family:'微软雅黑';color:#004EA2;font-size:18px;border-top:1px solid #CCC;border-bottom:1px solid #CCC;}
+	div.left_menu_bg_2		{wdith:180px;padding-left:20px;height:30px;margin-top:5px;line-height:30px;font-family:'微软雅黑';color:#333333;font-size:14px;cursor:pointer;}	
+	div.left_menu_bg_3		{wdith:190px;padding-left:10px;height:20px;margin-top:5px;line-height:20px;font-family:'微软雅黑';color:#336699;font-size:13px;cursor:pointer;}		
+	div.news_top_1			{padding-top:10px;text-indent:2em;}
+	div.news_top_2			{padding-top:5px;padding-bottom:2px;}
+	div.news_list			{height:35px;line-height:35px;font-size:14px;border-bottom:1px dashed #CCC;}
+	div.nav_home	{width:100px;height:50px;text-align:center;letter-spacing:2px;font-family:微软雅黑;font-size:16px;line-height:50px;letter-spacing:2px;cursor:pointer;float:left;}
+    div.nav_menu_0  {width:120px;height:50px;margin-right:10px;text-align:center;font-family:微软雅黑;font-size:16px;line-height:50px;letter-spacing:2px;cursor:pointer;background:none;}
+    div.nav_menu_1  {width:120px;height:50px;text-align:center;font-family:微软雅黑;font-size:16px;color:#CC0000;letter-spacing:2px;line-height:50px;cursor:pointer;background:url('../images/nav_menu_bg_1.png') no-repeat;}
+    div.nav_body	{text-align:left;position:absolute;z-index:999;}	
+   /* div.nav_body_1  {width:770px;height:310px;background:url('../images/nav_body_bg_1.png') no-repeat;}*/
+	 div.nav_body_1  {width:980px;height:340px;background:url('../images/nav_body_bg_1.png') no-repeat;}
+    div.nav_body_2  {width:770px;height:310px;background:url('../images/nav_body_bg_2.png') no-repeat;}
+    div.nav_body_3  {width:700px;height:260px;background:url('../images/nav_body_bg_3.png') no-repeat;}
+    div.nav_body_4  {width:550px;height:260px;background:url('../images/nav_body_bg_4.png') no-repeat;}
+    #jsddm li       {list-style:none;float:left;}
+	#jsddm li ul    {position:absolute;z-index:999;margin-top:0px;visibility:hidden;}
+	
+	/*div.nav_pro			{width:115px;height:310px;font-size:14px;line-height:27px;float:left;}
+	div.nav_pro_line	{width:100%;height:10px;font-size:0px;}
+	div.nav_pro_line_2	{width:7px;height:300px;font-size:0px;background:url('../images/nav_pro/line.png') no-repeat;float:left;}
+	a					{font-size:14px;color:#666666;}*/
+	
+	div.nav_pro			{width:166px;height:310px;font-size:12px;line-height:27px;float:left;}
+	div.nav_pro_line	{width:100%;height:10px;font-size:0px;}
+	div.nav_pro_line_2	{width:7px;height:300px;font-size:0px;background:url('images/nav_pro/line.png') no-repeat;float:left;}
+	a					{font-size:14px;color:#666666;}
+	div.nav_pro  { position:relative;}
+	div.nav_pro  img { position:absolute; left:0; bottom:30px;}
+
+	
+	div.foot_div	{width:176px;padding-left:16px;line-height:20px;color:#EEE;float:left;}
+	font.foot_title	{font-size:16px;font-weight:bold;letter-spacing:1px;line-height:40px;}
+	a.foot			{font-size:12px;color:#EEEEEE;}	div.investor_gg		{width:500px;padding-left:19px;height:40px;line-height:42px;background:url('../images/investor_bg.jpg');}

@@ -1,0 +1,653 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <title>合肥友友志钢铁科技有限公司</title>
+    <meta property="qc:admins" content="5361677777634125654636"/>
+    <meta property="wb:webmaster" content="82dee4ce95016dc3"/>
+    <meta name="keywords" content="合肥友友志钢铁科技有限公司">
+    <meta name="description" content="合肥友友志钢铁科技有限公司">
+    <meta name="author" content="合肥友友志钢铁科技有限公司">
+    <meta name="copyright" content="合肥友友志钢铁科技有限公司">
+    <link href="./templates/default/css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="Shortcut Icon" href="favicon.ico">
+</head>
+<body>
+<!--顶部:star-->
+<div style="width:100%;height:61px;margin:0 auto; padding-bottom:12px;">
+    <div style="width:1000px;height:61px;margin:0 auto;">
+        <div style="width:600px;height:41px;padding-top:20px;float:left;"><a href="index.php"><img
+                src="./templates/default/images/logo.jpg" title="福建星网锐捷通讯股份有限公司欢迎您！"></a></div>
+        <div style="width:210px;height:33px;padding-top:28px;text-align:right;color:#999;float:left;"><font id="english"
+                                                                                                            style="font-family:arial;font-size:14px;color:#C00;cursor:pointer;">ENGLISH</font>
+            <script src="./templates/default/js/jquery-1.8.2.js"></script>
+            <script type="text/javascript">
+                $(document).ready(
+                        function english() {
+                            $("#english").click(function english() {
+                                        $("#english_link").toggle();
+                                        document.getElementById("taobao_link").style.display = "none";
+                                    }
+                            );
+                        });
+                $(document).ready(
+                        function taobao() {
+                            $("#taobao").click(function taobao() {
+                                        $("#taobao_link").toggle();
+                                        document.getElementById("english_link").style.display = "none";
+                                    }
+                            );
+                        });
+            </script>
+            <div id="english_link" style="position:relative;z-index:1000;width:230px;line-height:18px;display:none;"><a
+                    href="en/" class="english_link" target="_blank">STAR-NET</a> | <a
+                    href="http://www.starnetuc.com/en/" class="english_link" target="_blank">STARNET-UC</a></div>
+            <div id="taobao_link"
+                 style="position:relative;z-index:1000;width:190px;padding-right:50px;line-height:18px;display:none;"><a
+                    href="http://starnet.tmall.com" class="taobao_link" target="_blank">数字家庭</a> | <a
+                    href="http://ruijiesmb.taobao.com" class="taobao_link" target="_blank">锐捷网络</a> | <a
+                    href="http://evideo.tmall.com" class="taobao_link" target="_blank">视易商城</a></div>
+        </div>
+        <div style="width:180px;height:26px;padding-top:25px;text-align:center;float:left;">
+            <form action="" method="get">
+                <!-- <input type="hidden" id="n_type" name="n_type" value="60,61">-->
+                <input type="hidden" name="sn" value="search">
+                <input type="text" id="keywords" name="keywords" value="站内搜索"
+                       onFocus="if(this.value=='站内搜索'){this.value=''}" onBlur="if(this.value==''){this.value='站内搜索'}"
+                       style="width:105px;padding-left:20px;height:26px; float:left; margin-left:15px; display:inlinecolor:#666666;line-height:20px;background-image:url('./templates/default/images/search_input.png');background-repeat:no-repeat;border:0px;"/>
+                <input type="image" src="./templates/default/images/search_submit.png" style="float:left;"/>
+            </form>
+            <script>
+                function search() {
+                    //alert('123');
+                    //var n_type = document.getElementById('n_type').value;
+                    var keywords = document.getElementById('keywords').value;
+                    location.href = "?sn=search&keywords=" + keywords;
+                    return;
+                }
+            </script>
+        </div>
+    </div>
+</div><!--顶部:end-->
+<div style="width:100%;height:50px;line-height:50px;margin:0 auto;background-image:url('./templates/default/images/bg_2.jpg');">
+    <script>
+        if (screen.width > 1024)
+        //如果分辨率大于1024，"加入我们"的下拉菜单距离往左偏移量为__；
+        {
+            document.write("<style>div.nav_body_1_left,div.nav_body_3_left{margin-left:0px;}</style>");
+        }
+        else
+        //如果分辨率小于等于1024，"加入我们"的下拉菜单距离往左偏移量为__；
+        {
+            document.write("<style>div.nav_body_1_left,div.nav_body_3_left{margin-left:-85px;}</style>");
+        }
+    </script>
+    <script src="./templates/default/js/jquery-1.8.2.js"></script>
+    <script>
+        var timeout = 0;
+        var closetimer = 0;
+        var ddmenuitem = 0;
+
+        function jsddm_open() {
+            jsddm_canceltimer();
+            jsddm_close();
+            $(this).find('div').eq(0).addClass("nav_menu_1");
+            ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');
+        }
+
+        function jsddm_close() {
+            if (ddmenuitem) {
+                ddmenuitem.css('visibility', 'hidden');
+            }
+        }
+
+        function jsddm_timer() {
+            closetimer = window.setTimeout(jsddm_close, timeout);
+            document.getElementById("nav_menu_1").className = "nav_menu_0";
+            document.getElementById("nav_menu_2").className = "nav_menu_0";
+            document.getElementById("nav_menu_3").className = "nav_menu_0";
+            document.getElementById("nav_menu_4").className = "nav_menu_0";
+        }
+
+        function jsddm_canceltimer() {
+            if (closetimer) {
+                window.clearTimeout(closetimer);
+                closetimer = null;
+            }
+        }
+
+        $(document).ready(function () {
+            $('#jsddm > li').bind('mouseover', jsddm_open);
+            $('#jsddm > li').bind('mouseout', jsddm_timer);
+        });
+    </script>
+
+    <!--导航:star-->
+    <div style="width:1000px;height:30px;margin:0 auto;">
+        <!--菜单开始-->
+        <div class="nav_home" onclick="javascript:window.location.href='./youyouzhi.html'"> 首&nbsp;页</div>
+        <ul id="jsddm">
+            <li>
+                <div id="nav_menu_1" class="nav_menu_0">产品与方案</div>
+                <ul>
+                    <div class="nav_body nav_body_1 nav_body_1_left">
+                        <div style="width:940px;height:300px;padding-top:10px;color:#333333;margin:0 auto;">
+                            <div class="nav_pro">
+                                <font class="nav_title" style="padding-left:0px;">云计算</font><br>
+                                <div class="nav_pro_line"></div>
+                                <a href="http://www.centerm.com.cn/Solution/159.html" target="_blank">智慧营业厅解决方案</a><br>
+                                <a href="http://www.centerm.com/Product/128.html" target="_blank">桌面云解决方案</a><br>
+                                <a href="http://www.centerm.com.cn/SolutionDetail/767.html" target="_blank">Cpay云支付整体解决方案</a><br>
+                                <a href="http://www.ruijie.com.cn/cp/ykt/" target="_blank">云课堂解决方案</a><br>
+                                <a href="http://www.starnet-ict.com/index.php?sn=pro_solutions2&id=96" target="_blank">沃星云呼叫中心</a><br>
+                                <a href="http://www.evideostb.com/" target="_blank">KTV联网娱乐平台</a><br>
+                                <div class="nav_pro_line" style="height:100px;"></div>
+                                <!--<br><img src="./templates/default/images/nav_pro/1.jpg">-->
+                            </div>
+                            <div class="nav_pro_line_2"></div>
+                            <div class="nav_pro" style="width:180px;">
+                                <font class="nav_title">下一代网络</font><br>
+                                <div class="nav_pro_line"></div>
+                                <a href="http://www.ruijie.com.cn/fa/jjwl" target="_blank">极简网络解决方案</a><br>
+                                <a href="http://www.ruijie.com.cn/fa/ydhl" target="_blank">智能无线解决方案</a><br>
+                                <a href="http://www.ruijie.com.cn/fa/" target="_blank">RIIL——IT管理解决方案</a><br>
+                                <a href="http://www.ruijie.com.cn/fa/" target="_blank">整体网关解决方案</a><br>
+                                <a href="http://www.ruijie.com.cn/fa/" target="_blank">网络软件应用方案</a><br>
+                                <a href="http://www.ruijie.com.cn/fa/" target="_blank">路由器产品解决方案</a><br>
+                                <a href="http://www.ruijie.com.cn/fa/" target="_blank">安全产品解决方案</a><br>
+                                <br>
+                                <div class="nav_pro_line"></div>
+                                <!--<<img src="templates/default/images/nav_pro/2.jpg">	-->
+                            </div>
+                            <div class="nav_pro_line_2">&nbsp;</div>
+                            <div class="nav_pro" style="padding-left:15px;width:140px;">
+                                &nbsp; <font class="nav_title">移动互联网</font><br>
+                                <div class="nav_pro_line"></div>
+                                &nbsp; <a href="http://ktvme.evideostb.com/" target="_blank">K米</a><br>
+                                &nbsp; <a href="http://www.nexhome.cn/" target="_blank">NexHome</a><br>
+                                &nbsp; <a href="http://www.xingweim.com" target="_blank">星微门</a><br>
+                                <br>
+                                <div class="nav_pro_line"></div>
+                                <!--<<img src="./templates/default/images/nav_pro/3.jpg">-->
+                            </div>
+                            <div class="nav_pro_line_2">&nbsp;</div>
+                            <div class="nav_pro" style="padding-left:15px;">
+                                <font class="nav_title">物联网</font><br>
+                                <div class="nav_pro_line"></div>
+
+                                <a href="http://www.star-netsecurity.com/?sn=solutions" target="_blank">安防监控解决方案</a><br>
+                                <a href="http://www.evideo-smart.com/application/36.html"
+                                   target="_blank">智能楼宇解决方案</a><br>
+                                <a href="http://dmb.star-net.cn/solution-2/" target="_blank">数字标牌解决方案</a><br>
+                                <br>
+                                <br>
+                                <div class="nav_pro_line"></div>
+                                <!--<<img src="./templates/default/images/nav_pro/4.jpg">-->
+                            </div>
+                            <div class="nav_pro_line_2">&nbsp;</div>
+                            <div class="nav_pro" style="width:190px;padding-left:0px;">
+                                <font class="nav_title">智慧园区</font><br>
+                                <div class="nav_pro_line"></div>
+                                <a href="http://www.star-netsecurity.com/?sn=solutions"
+                                   target="_blank">智慧园区整体解决方案</a><br>
+                                <a href="http://www.starnet-ict.com/index.php?sn=pro_solutions&id=%2011"
+                                   target="_blank">智慧社区解决方案</a><br>
+                                <a href="http://www.centerm.com.cn/HRBulletinDetail/938.html"
+                                   target="_blank">腾云社区</a><br>
+                                <!--<<br><img src="./templates/default/images/nav_pro/55.jpg">-->
+
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div id="nav_menu_2" class="nav_menu_0">关于我们</div>
+                <ul>
+                    <div class="nav_body nav_body_2">
+                        <div style="width:770px;height:290px;padding-top:20px;margin:0 auto;">
+                            <div style="width:210px;padding-left:18px;padding-right:20px;padding-top:10px;float:left;">
+                                <div style="width:210px;text-align:center;"><a href="?sn=about"><img
+                                        src="./templates/default/images/nav_company.gif" width=200 height=100
+                                        title="关于星网锐捷"></a></div>
+                                <div style="width:210px;line-height:22px;color:#666;text-indent:2em;">
+                                    星网锐捷(股票代码:002396)，秉承"科技创新，融合应用"的经营理念，坚持以自主创新和行业应用为基础，致力于中国的信息化事业发展。
+                                </div>
+                                <div style="width:210px;text-align:right;"><a href="?sn=about"
+                                                                              style="color:#C00;">了解更多></a></div>
+                            </div>
+                            <div style="width:2px;height:260px;font-size:0px;background:url('./templates/default/images/nav_pro_line.jpg') repeat-y;float:left;">
+                                &nbsp; </div>
+                            <div style="width:260px;line-height:22px;padding-left:60px;float:left;">
+                                <div style="width:130px;float:left;"><font class="nav_title">公司介绍</font> <br>
+                                    <a href="?sn=about&fid=1" class="nav_company">公司简介</a><br>
+                                    <a href="?sn=about&fid=2" class="nav_company">企业文化</a><br>
+                                    <a href="?sn=about&fid=3" class="nav_company">研发体系</a><br>
+                                    <a href="?sn=about&fid=10" class="nav_company">领导关怀</a><br>
+                                    <a href="?sn=about&fid=4" class="nav_company">荣誉分享</a><br>
+                                    <a href="?sn=about&fid=5" class="nav_company">大事记</a><br>
+                                    <a href="?sn=about&fid=6" class="nav_company">联系我们</a><br>
+                                </div>
+                                <div style="width:130px;float:left;"><font class="nav_title">新闻中心</font> <br>
+                                    <a href="?sn=news&fid=4" class="nav_company">公司新闻</a><br>
+                                    <a href="?sn=news&fid=5" class="nav_company">媒体报道</a><br>
+                                    <br>
+                                    <font class="nav_title nav_company">公司刊物</font> <br>
+                                    《<a href="?sn=magazine" class="nav_company">星网锐捷</a>》
+                                </div>
+                            </div>
+                            <div style="width:180px;padding-right:20px;padding-top:10px;text-align:center;line-height:25px;float:left;">
+                                <a href="?sn=magazine2&fid=529"> <img src="upfiles/type/img/201710091704547597.jpg"
+                                                                      width=154 height=206 title="2017年第3期"><br>
+
+                                </a> <a href="?sn=magazine2&fid=529">2017年第3期</a></div>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div id="nav_menu_3" class="nav_menu_0">加入我们</div>
+                <ul>
+                    <div class="nav_body nav_body_3 nav_body_3_left">
+                        <div style="width:700px;height:240px;padding-top:20px;margin:0 auto;">
+                            <div style="width:120px;padding-left:20px;float:left;"><a
+                                    href="http://search.51job.com/list/co,c,163098,0000,10,1.html#syzw" target="_blank"
+                                    class="nav_title">社会招聘</a><br>
+                                <!--<a href="javascript:alert('目前暂无校园招聘计划，敬请关注。');" class="nav_title">校园招聘</a><br>-->
+                                <a href="2015xz.htm" target="_blank" class="nav_title">校园招聘</a><br>
+                            </div>
+                            <div style="width:560px;line-height:20px;color:#999;float:left;">
+                                <div style="width:280px;float:left;"><a href="?sn=job"><img
+                                        src="./templates/default/images/nav_join_1.jpg" title="走近星网锐捷"></a> <br>
+                                    <font class="nav_title" style="color:#336699;">&raquo; 走近星网锐捷</font><br>
+                                    <div style="width:245px;min-height:70px;text-indent:2em;">
+                                        星网锐捷的舞台，始终属于任何勇于尝试，挑战自我的年轻人；他们的未来，就是星网锐捷的未来。
+                                    </div>
+                                    <div style="width:245px;text-align:right;height:30px;"><a href="?sn=job"
+                                                                                              style="color:#C00;">了解更多></a>
+                                    </div>
+                                </div>
+                                <div style="width:280px;float:left;"><a href="?sn=job"><img
+                                        src="./templates/default/images/nav_join_2.jpg" title="薪酬福利与培训发展"></a> <br>
+                                    <font class="nav_title" style="color:#336699;">&raquo; 薪酬福利与培训发展</font><br>
+                                    <div style="width:245px;min-height:70px;text-indent:2em;">
+                                        星网锐捷提供全面的薪酬福利计划，在全公司范围内贯彻"岗位年薪制"的薪酬体系，为员工提供富有竞争力的薪酬水平。
+                                    </div>
+                                    <div style="width:245px;text-align:right;height:30px;"><a href="?sn=job"
+                                                                                              style="color:#C00;">了解更多></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div id="nav_menu_4" class="nav_menu_0" onclick="javascript:window.location.href='?sn=investor'">投资者关系
+                </div>
+                <ul>
+                    <!--暂不做弹窗
+                          <div class="nav_body nav_body_4">
+                              投资者关系
+                          </div>
+                          -->
+                </ul>
+            </li>
+        </ul>
+        <!--菜单结束-->
+    </div>
+</div><!--导航:end-->
+
+<!--banner:star-->
+<div style="width:100%;height:370px;margin:0 auto;">
+    <link href="./templates/default/css/banner.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="./templates/default/js/jquery-1.8.2.js"></script>
+    <div class="banner" id="pcList" style="margin-bottom: 0px; z-index:2;">
+        <div id="slide-index" style="width: 1424px; ">
+            <div class="slides" style="width: 5696px; margin-left: -1424px; ">
+
+                <div class="slide autoMaxWidth"
+                     style="width:100%;height:370px;background:url(upfiles/image/img/201709301548062020.jpg) no-repeat center top;"
+                     onClick="javascript:window.open('http://www.centerm.com/ProductDetail/4356.html')">
+                    <div class="text" id="bt_1" style="left: 230.5px; top: 86px; "></div>
+                    <div class="button" id="bb_1"
+                         style="width: 138px; display: block; top: 265px; left: 3000px; "></div>
+                </div>
+                <div class="slide autoMaxWidth"
+                     style="width:100%;height:370px;background:url(upfiles/image/img/201709301600399211.jpg) no-repeat center top;"
+                     onClick="javascript:window.open('http://www.ruijie.com.cn/fa/zhjs/20170809/')">
+                    <div class="text" id="bt_1" style="left: 230.5px; top: 86px; "></div>
+                    <div class="button" id="bb_1"
+                         style="width: 138px; display: block; top: 265px; left: 3000px; "></div>
+                </div>
+                <div class="slide autoMaxWidth"
+                     style="width:100%;height:370px;background:url(upfiles/image/img/201709301601482339.jpg) no-repeat center top;"
+                     onClick="javascript:window.open('http://www.evideostb.com/newsshow_1316.html')">
+                    <div class="text" id="bt_1" style="left: 230.5px; top: 86px; "></div>
+                    <div class="button" id="bb_1"
+                         style="width: 138px; display: block; top: 265px; left: 3000px; "></div>
+                </div>
+                <div class="slide autoMaxWidth"
+                     style="width:100%;height:370px;background:url(upfiles/image/img/201710111738012840.jpg) no-repeat center top;"
+                     onClick="javascript:window.open('#')">
+                    <div class="text" id="bt_1" style="left: 230.5px; top: 86px; "></div>
+                    <div class="button" id="bb_1"
+                         style="width: 138px; display: block; top: 265px; left: 3000px; "></div>
+                </div>
+
+            </div>
+            <div class="control" style="position:relative;top:-40px;">
+
+                <a href="" class=""></a>
+
+                <a href="" class=""></a>
+
+                <a href="" class=""></a>
+
+                <a href="" class=""></a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            addVideo();
+            indexSlides.ini();
+            latestNews.ini();
+            featurePopup.ini();
+            for (var i = 0; i < 4; i++) {
+                $('#bt_' + i).find("img").addClass("IE6png");
+                $('#bb_' + i).find("img").addClass("IE6png");
+            }
+        });
+
+        function addVideo() {
+        }
+
+
+        var indexSlides = {};
+
+        indexSlides.timer = false;
+        indexSlides.total = $('#slide-index .control a').length;
+        indexSlides.current = -1;
+        indexSlides.offScreenLeft = 2000;
+        indexSlides.leaveScreenLeft = 4000;
+        indexSlides.animating = false;
+
+        indexSlides.obj = $('#slide-index .slide');
+
+        indexSlides.style = [];
+        indexSlides.style[0] = {
+            text: {left: '30px', top: '46px'},
+            button: {left: '33px', top: '265px'},
+            direction: 'lr'
+        };
+        indexSlides.style[1] = {
+            text: {left: '56px', top: '86px'},
+            button: {left: '363px', top: '282px'},
+            direction: 'lr'
+        };
+        indexSlides.style[2] = {
+            text: {left: '30px', top: '81px'},
+            button: {left: '30px', top: '244px'},
+            direction: 'tb'
+        };
+        indexSlides.style[3] = {
+            text: {left: '30px', top: '81px'},
+            button: {left: '30px', top: '244px'},
+            direction: 'tb'
+        };
+    </script>
+    <script type=text/javascript>
+        $(function () {
+            var hasMP4 = '';
+            var hasVideo = '';
+            if (iPx()) {
+                $('#pcList').remove();
+                $('#padList').show();
+            }
+            else {
+                $('#padList').remove();
+                $('#pcList').show();
+            }
+            if (hasMP4 == "0") {
+                //alert("mp4");
+                $('#padList').remove();
+            }
+            if (hasVideo == "0") {
+                // alert("video");
+                $('#pcList').remove();
+            }
+        });
+    </script>
+    <script type="text/javascript" src="./templates/default/js/banner.js"></script>
+</div>
+
+
+<div style="width:100%;height:39px;margin:0 auto;background-image:url('./templates/default/images/turn_news_bg.jpg');">
+    <div style="width:980px;height:39px;margin:0 auto;">
+        <!--微信二维码-->
+        <div id="weixinQR"
+             style="position:relative;z-index:10000;top:-178px;left:755px;width:170px;height:177px;margin-bottom:-177px;background:url('./templates/default/images/winxinQR.png');display:none;">
+            &nbsp; </div>
+        <!--微信二维码-->
+        <div style="width:580px;height:39px;line-height:39px;float:left;">
+            <div style="width:80px;height:39px;line-height:39px;text-align:center;color:#CC0000;float:left;"> 【<a
+                    href="?sn=news&fid=4" style="font-size:12px;color:#CC0000;font-family:'微软雅黑';text-underline:none;"
+                    title="点击查看更多新闻">新 闻</a>】
+            </div>
+            <div style="width:500px;height:39px;line-height:39px;float:left;">
+                <!--上滚新闻-->
+                <div style="width:100%;">
+                    <div id="news" style="height:39px;line-height:39px;font-family:arial;overflow:hidden;">
+                        <a href="?sn=newsnr&id=13438" style="font-size:12px;">福建省委常委、组织部长胡昌升一行莅临星网锐捷考察指导</a> &nbsp;
+                        (2017/11/13) <br>
+                        <a href="?sn=newsnr&id=13437" style="font-size:12px;">星网锐捷旗下智慧社区品牌NexHome荣获“十大智能家居控制品牌”</a>
+                        &nbsp; (2017/10/31) <br>
+                        <a href="?sn=newsnr&id=13436" style="font-size:12px;">星网锐捷上榜2017中国服务业企业500强</a> &nbsp;
+                        (2017/10/24) <br>
+                        <a href="?sn=newsnr&id=13435" style="font-size:12px;">星网锐捷召开两化融合管理体系贯标启动暨培训会议</a> &nbsp;
+                        (2017/10/10) <br>
+                        <a href="?sn=newsnr&id=13434" style="font-size:12px;">星网锐捷荣登中策中国企业专利技术百强榜单</a> &nbsp;
+                        (2017/09/21) <br>
+                    </div>
+                </div>
+                <script language="javascript">
+                    var box = document.getElementById("news"), can = true;
+                    box.innerHTML += box.innerHTML;
+                    box.onmouseover = function () {
+                        can = false
+                    };
+                    box.onmouseout = function () {
+                        can = true
+                    };
+                    new function () {
+                        var stop = box.scrollTop % 39 == 0 && !can;
+                        if (!stop)box.scrollTop == parseInt(box.scrollHeight / 2) ? box.scrollTop = 0 : box.scrollTop++;
+                        setTimeout(arguments.callee, box.scrollTop % 39 ? 10 : 3500);
+                    };
+                </script>
+                <!--上滚新闻-->
+            </div>
+        </div>
+        <div style="width:400px;height:39px;text-align:right;line-height:39px;float:left;"><font
+                style="font-family:'微软雅黑';font-size:12px;letter-spacing:2px;font-weight:bold;">官方微信公众号:</font> <img
+                src="./templates/default/images/weixinLogo.png" width=25 height=25 title="关注星网锐捷官方微信公众号"
+                align="absmiddle" onMouseOver="document.getElementById('weixinQR').style.display='block';"
+                onMouseOut="document.getElementById('weixinQR').style.display='none';" style="cursor:pointer;"> &nbsp;
+            &nbsp; <font style="font-family:'微软雅黑';font-size:12px;letter-spacing:2px;font-weight:bold;">官方微博:</font> <a
+                    href="http://weibo.com/starnet001" target="_blank"> <img src="./templates/default/images/weibo.png"
+                                                                             width=20 height=20 title="关注星网锐捷数字家庭新浪微博"
+                                                                             align="absmiddle"> </a></div>
+    </div>
+</div>
+<div style="width:100%;height:330px;padding-top:15px;margin:0 auto;background-image:url('./templates/default/images/bg_5.jpg');">
+    <div style="width:980px;height:330px;margin:0 auto;">
+        <!--循环:star-->
+        <a href='http://www.ruijie.com.cn/fa/yys/20161212/' style='text-decoration:none;' target='_blank'>
+            <div style='width:326px;height:157px;cursor:pointer;background:url(./templates/default/images/proDivBg.png) no-repeat;float:left;'>
+                <div style='width:191px;padding-left:3px;padding-right:7px;height:145px;padding-top:12px;float:left;'>
+                    <center>
+                        <font style='font-family:微软雅黑;font-size:16px;color:#CC0000;'>医疗物联网解决方案</font>
+                    </center>
+                    <div style='width:180px;padding-left:11px;padding-top:10px;text-align:left;text-indent:0em;font-size:12px;color:#666;line-height:20px;'>
+                        锐捷医疗物联网解决方案，面向医疗行业应用，实现对医院人员、资产、婴儿的精准定位和互联，构建智能化的医疗健康业务平台，全面提升医疗服务质量。
+                    </div>
+                </div>
+                <div style='width:114px;padding-right:9px;height:152px;padding-top:4px;float:left;'><img
+                        src='./templates/default/images/proDiv/20170505.jpg' width=114 height=143 border=0></div>
+            </div>
+        </a>
+        <!--循环:end-->
+        <!--循环:star-->
+        <a href='http://ktvme.evideostb.com/' style='text-decoration:none;' target='_blank'>
+            <div style='width:326px;height:157px;cursor:pointer;background:url(./templates/default/images/proDivBg.png) no-repeat;float:left;'>
+                <div style='width:191px;padding-left:3px;padding-right:7px;height:145px;padding-top:12px;float:left;'>
+                    <center>
+                        <font style='font-family:微软雅黑;font-size:16px;color:#006699;'>K米，乐享欢聚</font>
+                    </center>
+                    <div style='width:180px;padding-left:11px;padding-top:10px;text-align:left;text-indent:0em;font-size:12px;color:#666;line-height:20px;'>
+                        K米，做最好玩的K歌聚会娱乐平台，连接用户、商家、第三方服务商，向线下KTV输出“管理、流量、内容、广告”核心价值，构建互联网+聚会娱乐新生态。
+                    </div>
+                </div>
+                <div style='width:114px;padding-right:9px;height:152px;padding-top:4px;float:left;'><img
+                        src='./templates/default/images/proDiv/2017022402.jpg' width=114 height=143 border=0></div>
+            </div>
+        </a>
+        <!--循环:end-->
+        <!--循环:star-->
+        <a href='http://www.centerm.com.cn/SolutionDetail/767.html' style='text-decoration:none;' target='_blank'>
+            <div style='width:326px;height:157px;cursor:pointer;background:url(./templates/default/images/proDivBg.png) no-repeat;float:left;'>
+                <div style='width:191px;padding-left:3px;padding-right:7px;height:145px;padding-top:12px;float:left;'>
+                    <center>
+                        <font style='font-family:微软雅黑;font-size:16px;color:#006699;'>Cpay2.0云支付全新上线</font>
+                    </center>
+                    <div style='width:180px;padding-left:11px;padding-top:10px;text-align:left;text-indent:0em;font-size:12px;color:#666;line-height:20px;'>
+                        升腾资讯重磅推出Cpay2.0云支付整体解决方案，以“智能云终端+智能云应用+智能云平台”的模式在业界又一次成功领跑。
+                    </div>
+                </div>
+                <div style='width:114px;padding-right:9px;height:152px;padding-top:4px;float:left;'><img
+                        src='./templates/default/images/proDiv/2017022403.jpg' width=114 height=143 border=0></div>
+            </div>
+        </a>
+        <!--循环:end-->
+        <!--循环:star-->
+        <a href='http://www.nexhome.cn' style='text-decoration:none;' target='_blank'>
+            <div style='width:326px;height:157px;cursor:pointer;background:url(./templates/default/images/proDivBg.png) no-repeat;float:left;'>
+                <div style='width:191px;padding-left:3px;padding-right:7px;height:145px;padding-top:12px;float:left;'>
+                    <center>
+                        <font style='font-family:微软雅黑;font-size:16px;color:#FF6600;'>星网锐捷“星智装”</font>
+                    </center>
+                    <div style='width:180px;padding-left:11px;padding-top:10px;text-align:left;text-indent:0em;font-size:12px;color:#666;line-height:20px;'>
+                        “星智装”迎合目前增长形势大好的中高端公寓地产，提出完整的“公寓智装”系统解决方案。
+                    </div>
+                </div>
+                <div style='width:114px;padding-right:9px;height:152px;padding-top:4px;float:left;'><img
+                        src='./templates/default/images/proDiv/20151130.jpg' width=114 height=143 border=0></div>
+            </div>
+        </a>
+        <!--循环:end-->
+        <!--循环:star-->
+        <a href='http://www.starnetuc.com' style='text-decoration:none;' target='_blank'>
+            <div style='width:326px;height:157px;cursor:pointer;background:url(./templates/default/images/proDivBg.png) no-repeat;float:left;'>
+                <div style='width:191px;padding-left:3px;padding-right:7px;height:145px;padding-top:12px;float:left;'>
+                    <center>
+                        <font style='font-family:微软雅黑;font-size:16px;color:#009900;'>星网智慧科技</font>
+                    </center>
+                    <div style='width:180px;padding-left:11px;padding-top:10px;text-align:left;text-indent:0em;font-size:12px;color:#666;line-height:20px;'>
+                        基于最新音视频技术，提供融合通信、融合视讯、融合连接等在不同行业场景下的语音和视频成套解决方案，帮助政企用户提高沟通效率、增强协作、降本增效。
+                    </div>
+                </div>
+                <div style='width:114px;padding-right:9px;height:152px;padding-top:4px;float:left;'><img
+                        src='./templates/default/images/proDiv/20170525.png' width=114 height=143 border=0></div>
+            </div>
+        </a>
+        <!--循环:end-->
+        <!--循环:star-->
+        <a href='http://www.xingweim.com/' style='text-decoration:none;' target='_blank'>
+            <div style='width:326px;height:157px;cursor:pointer;background:url(./templates/default/images/proDivBg.png) no-repeat;float:left;'>
+                <div style='width:191px;padding-left:3px;padding-right:7px;height:145px;padding-top:12px;float:left;'>
+                    <center>
+                        <font style='font-family:微软雅黑;font-size:16px;color:#FF6600;'>星微门智慧餐饮</font>
+                    </center>
+                    <div style='width:180px;padding-left:11px;padding-top:10px;text-align:left;text-indent:0em;font-size:12px;color:#666;line-height:20px;'>
+                        为餐饮企业提供无线wifi、手机点餐、智能POS点餐、收银支付、会员管理、营销活动、大数据分析、代运营等移动互联网解决方案。
+                    </div>
+                </div>
+                <div style='width:114px;padding-right:9px;height:152px;padding-top:4px;float:left;'><img
+                        src='./templates/default/images/proDiv/xingweimen.png' width=114 height=143 border=0></div>
+            </div>
+        </a>
+        <!--循环:star-->
+    </div>
+</div>
+
+<!--底部:star-->
+<style>
+    .sangezi {
+        letter-spacing: 5px;
+    }
+</style>
+
+<div style="width:100%;height:303px;margin:0 auto;background-image:url('./templates/default/images/bg_foot.jpg');">
+    <div style="width:980px;height:220px;padding-top:20px;margin:0 auto;">
+        <div class="foot_div"><font class="foot_title">关于星网锐捷</font><br>
+            <a href="?sn=about&fid=1" class="foot">公司简介</a><br>
+            <a href="?sn=about&fid=2" class="foot">企业文化</a><br>
+            <a href="?sn=about&fid=3" class="foot">研发体系</a><br>
+            <a href="?sn=about&fid=10" class="foot">领导关怀</a><br>
+            <a href="?sn=about&fid=4" class="foot">荣誉分享</a><br>
+            <a href="?sn=about&fid=5" class="foot">大事记</a><br>
+            <a href="?sn=about&fid=6" class="foot">联系我们</a><br>
+        </div>
+        <div class="foot_div"><font class="foot_title">新闻中心</font><br>
+            <a href="?sn=news&fid=4" class="foot">公司新闻</a><br>
+            <a href="?sn=news&fid=5" class="foot">媒体报道</a><br>
+            <a href="?sn=magazine" class="foot">星网锐捷杂志</a><br>
+        </div>
+        <div class="foot_div"><font class="foot_title">加入我们</font><br>
+            <a href="?sn=job" class="foot">走近星网锐捷</a><br>
+            <a href="http://search.51job.com/list/co,c,163098,0000,10,1.html#syzw" target="_blank" class="foot">社会招聘</a><br>
+            <a href="javascript:alert('目前暂无校园招聘计划，敬请关注。');" class="foot">校园招聘</a><br>
+            <a href="?sn=job" target="_blank" class="foot">精彩风景线</a><br>
+            <a href="?sn=job" target="_blank" class="foot">薪酬福利与培训发展</a><br>
+        </div>
+        <div class="foot_div"><font class="foot_title">子网站</font><br>
+            <a href="http://www.centerm.com.cn" target="_blank" class="foot">升腾资讯</a>&nbsp;
+            <a href="http://www.ruijie.com.cn" target="_blank" class="foot">锐捷网络</a><br>
+            <a href="http://www.evideostb.com" target="_blank" class="foot">星网视易</a>&nbsp;
+            <a href="http://www.starnetuc.com" target="_blank" class="foot">星网智慧</a><br>
+            <a href="http://www.starnetiot.cn" target="_blank" class="foot">星网物联</a>&nbsp;
+            <a href="http://www.evideo-smart.com/" target="_blank" class="foot">数字家居</a><br>
+            <a href="http://dmb.star-net.cn" target="_blank" class="foot">数字标牌</a>&nbsp;
+            <a href="http://www.nexhome.cn" target="_blank" class="foot sangezi">星智装</a><br>
+            <a href="http://www.xingweim.com" target="_blank" class="foot sangezi">星微门</a>&nbsp;
+            <a href="http://www.ktvme.com" target="_blank" class="foot sangezi">K米网</a><br>
+            <a href="http://www.tengyunbao.net" target="_blank" class="foot sangezi">腾云宝</a>&nbsp;
+            <a href="http://www.strongsoft.net" target="_blank" class="foot">四创软件</a><br>
+            <a href="http://www.asiatelco.com" target="_blank" class="foot">德明通讯</a><br>
+            <br>
+        </div>
+        <div class="foot_div"><font class="foot_title">投资者关系</font><br>
+            <a href="investor.asp?n_type=105&flag=0" class="foot">公司概况</a><br>
+            <a href="?sn=investor&fid=1" class="foot">临时公告</a><br>
+            <a href="?sn=investor&fid=2" class="foot">定期报告</a><br>
+            <a href="?sn=investor&fid=3" class="foot">公司治理</a><br>
+            <a href="?sn=investor&fid=327" class="foot">内幕交易防控专栏</a><br>
+            <a href="?sn=investor&fid=328" class="foot">12-4法制宣传日专题</a><br>
+            <a href="?sn=investor&fid=329" class="foot">投资者保护宣传</a><br>
+            <a href="?sn=investor&fid=330" class="foot">独立董事工作动态</a><br>
+            <a href="?sn=investor&fid=527" class="foot">联系我们</a><br>
+        </div>
+    </div>
+    <div style="width:960px;padding-left:20px;height:53px;font-size:13px;color:#EEE;line-height:22px;margin:0 auto;">
+        福建星网锐捷通讯股份有限公司　版权所有© 2002-2014 闽ICP备10011049号-1<br>
+        地址：合肥友友志钢铁科技有限公司（合肥）<br>
+        <font style='margin-left:38px;'>合肥友友志钢铁科技有限公司（合肥）</font><br>
+    </div>
+</div>
+<img src="images/star-net.jpg" alt="合肥友友志钢铁科技有限公司" width=150 height=75 style="display:none;"><!--底部:end-->
+<!--站长统计-->
+<div style="width:0px;height:0px;font-size:0px;display:none;">
+    <script src="http://s6.cnzz.com/stat.php?id=3242903&web_id=3242903&show=pic1" language="JavaScript"></script>
+</div>
+<!--站长统计-->

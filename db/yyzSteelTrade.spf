@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>steelTrade</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>kcid</key>
+			<string>5951422532784656781</string>
+			<key>name</key>
+			<string>合肥友友志钢铁科技本地</string>
+			<key>port</key>
+			<integer>3306</integer>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDA0VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeAClJpZNIeHy0uXxAPTlNN
+			dXRhYmxlU3RyaW5noy0vI1hOU1N0cmluZ9IeHzEyXk5TTXV0YWJs
+			ZUFycmF5ozEzI1dOU0FycmF50h4fIjWiIiNfEA9OU0tleWVkQXJj
+			aGl2ZXLRODlUZGF0YYABAAgAEQAaACMALQAyADcARQBLAFIAWgBl
+			AGwAcAByAHQAdgB6AHwAfgCAAIIAhwCMAJEAugDBAMIAwwDFAMoA
+			1QDeAPQA+AEFAQ4BEwEVARcBGQEeASgBKgEtATIBRAFIAVEBVgFl
+			AWkBcQF2AXkBiwGOAZMAAAAAAAACAQAAAAAAAAA6AAAAAAAAAAAA
+			AAAAAAABlQ==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{1, 0}, {1064, 583}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>select * from factory;
+
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values (20, "12#", "9米", 1.998, 250, 120, 1);
+
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values (21, "14#", "9米", 1.96, 180, 50, 1);
+
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values (22, "16#", "9米", 1.991, 140, 0, 1);
+
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values (23, "18#", "9米", 1.98, 110, 0, 1);
+
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values (24, "20#", "9米", 2.001, 90, 0, 1);
+
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values (25, "22#", "9米", 2.012, 75, 0, 1);
+
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values (26, "25#", "9米", 2.079, 60, 50, 1);
+
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values (27, "28#", "9米", 1.956, 45, 100, 1);
+
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values (28, "32#", "9米", 1.988, 35, 100, 1);
+
+alter table stock 
+MODIFY column datetime datetime default CURRENT_TIMESTAMP;</string>
+			<key>table</key>
+			<string>stock</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>215</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>alter table stock 
+MODIFY column datetime datetime default CURRENT_TIMESTAMP</string>
+		<string>insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values ("12#", "9米", 1.998, 250, 120, 1);
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values ("14#", "9米", 1.96, 180, 50, 1);
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values ("16#", "9米", 1.991, 140, 0, 1);
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values ("18#", "9米", 1.98, 110, 0, 1);
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values ("20#", "9米", 2.001, 90, 0, 1);
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values ("22#", "9米", 2.012, 75, 0, 1);
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values ("25#", "9米", 2.079, 60, 50, 1);
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values ("28#", "9米", 1.956, 45, 100, 1);
+insert into specification (id, diameter, length, weight, number, offsetPrice, factoryId) 
+values ("32#", "9米", 1.988, 35, 100, 1)</string>
+		<string>insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("12#", "12米", 2.664, 250, 120, 1);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("14#", "12米", 2.614, 180, 50, 1);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("16#", "12米", 2.654, 140, 0, 1);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("18#", "12米", 2.64, 110, 0, 1);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("20#", "12米", 2.668, 90, 0, 1);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("22#", "12米", 2.682, 75, 0, 1);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("25#", "12米", 2.772, 60, 50, 1);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("28#", "12米", 2.608, 45, 100, 1);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("32#", "12米", 2.65, 35, 100, 1)</string>
+		<string>insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("16#", "12米", 2.01, 106, 0, 2);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("18#", "12米", 2.016, 84, 0, 2);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("20#", "12米", 2.016, 68, 0, 2);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("22#", "12米", 2.003, 56, 0, 2);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("25#", "12米", 2.033, 44, 0, 2);
+insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("28#", "12米", 1.971, 34, 0, 2)</string>
+		<string>insert into specification (diameter, length, weight, number, offsetPrice, factoryId) 
+values ("12#", "12米", 2.003, 188, 0, 2)</string>
+		<string>insert into specification values ("12#", "12米", 2.003, 188, 0, 2)</string>
+		<string>select * from factory</string>
+		<string>select * from goods_cart</string>
+		<string>select * from users</string>
+		<string>select * from user</string>
+		<string>select * from goods_category</string>
+		<string>select * from clothShop.order</string>
+		<string>select * from order</string>
+		<string>select * from orders</string>
+		<string>select * form users</string>
+		<string>select * from goods</string>
+		<string>select * from clothShop.order_goods</string>
+		<string>select * from cloth.order</string>
+		<string>update users set login_count =1 where user_id &gt; 78</string>
+		<string>select * from goodsCategory</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.20</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
